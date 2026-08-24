@@ -12,7 +12,7 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change language using ISO 639-1 code",
-  "nickNameBot": "𝗧𝗠 ^〲𝗠𝗔𝗠𝗨𝗡ツ࿐ ⁰⁰⁷",
+  "nickNameBot": "𝐤𝐢𝐩𝐞 𝐧𝐜𝐬⁷",
   "prefix": "-",
   "noPrefix": {
     "enable": true,
@@ -39,8 +39,8 @@
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      "61591350887837",
-      "61591406942617"
+      "1753259135838549",
+      "61588676516462"
     ],
     "notes": "If enabled, only IDs in whiteListIds can use the bot."
   },
