@@ -18,17 +18,17 @@ module.exports = {
   onStart: async function ({ api, event }) {
     const ownerText = 
 `╭─ 👑 Oᴡɴᴇʀ Iɴғᴏ 👑 ─╮
-│ 👤 Nᴀᴍᴇ       : 亗•𝘔𝘈𝘔𝘜𝘕✿᭄
-│🧸 Nɪᴄᴋ       : Vondo
+│ 👤 Nᴀᴍᴇ       : 亗•𝐤𝐢𝐩𝐞 𝐧𝐜𝐬✿᭄
+│🧸 Nɪᴄᴋ       : Vasho
 │ 🎂 Aɢᴇ        : 19+
 │ 💘 Rᴇʟᴀᴛɪᴏɴ : Sɪɴɢʟᴇ
 │ 🎓 Pʀᴏғᴇssɪᴏɴ : Sᴛᴜᴅᴇɴᴛ
 │ 📚 Eᴅᴜᴄᴀᴛɪᴏɴ : Iɴᴛᴇʀ 2ɴᴅ Yᴇᴀʀ
 │ 🏡 Lᴏᴄᴀᴛɪᴏɴ : 🄺🄷🅄🄻🄽🄷  
 ├─ 🔗 Cᴏɴᴛᴀᴄᴛ ─╮
-│ 📘 Facebook  : https://www.facebook.com/share/171Y441F7H/
-│ 💬 Messenger: m.me/61558931578859
-│ 📞 WhatsApp  : wa.me/01830981279
+│ 📘 Facebook  : kipe esperance 
+│ 💬 Messenger: ncs pro 
+│ 📞 WhatsApp  : wa.me/0705904250
 ╰────────────────╯`;
 
     const cacheDir = path.join(__dirname, "cache");
@@ -36,7 +36,7 @@ module.exports = {
 
     if (!fs.existsSync(cacheDir)) fs.mkdirSync(cacheDir);
 
-    const imgLink = "https://i.imgur.com/g0GpgfG.jpeg";
+    const imgLink = "https://l.facebook.com/l.php?u=https%3A%2F%2Fi.imgur.com%2F8GinmUQ.jpeg%3Ffbclid%3DIwcGRvZgNleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8yNzUyNTQ2OTI1OTgyNzkAAR5iTk4abteGAqzFrg4320jx6qr36GnckjBRVh7xkHVzQr6k4rJmAWeuJFp1RQ_aem_043CIMkxh6K63kDLJYUa_w&h=AUBfTRkBO7JCDFWftPkbMvmaKG9AykkK9hvPfE_qznuCfxwUQheK1H0_MzDtEYtk-Uz1tRHzYum16MVvLahR2aw3e8qKBRGee4r8ct0DomZO-dMZpoOZiVi71NtDTLqj1oA-mC_I0EnQt6tQC01O&s=1";
 
     const send = () => {
       api.sendMessage(
